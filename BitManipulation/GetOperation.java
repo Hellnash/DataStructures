@@ -3,7 +3,6 @@ package BitManipulation;
 import java.util.Scanner;
 
 public class GetOperation { //Used to find the bit at a given position 0->0 1->1
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
@@ -18,6 +17,5 @@ public class GetOperation { //Used to find the bit at a given position 0->0 1->1
         }else {
             System.out.println("The bit at position : "+position+ " is 1");
         }
-
     }
 }
